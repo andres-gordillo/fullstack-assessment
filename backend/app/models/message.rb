@@ -3,7 +3,7 @@ class Message
   include Mongoid::Timestamps
 
   # Fields used in message form and database. 
-  field :message, type: String
+  field :messageContent, type: String
 
   field :phone_number, type: String
 
@@ -15,7 +15,7 @@ class Message
 
 
   # Data validations for cleaner data.
-  validates :message, presence: true, lenght: {maximum: 100}
+  validates :messageContent, presence: true, lenght: {maximum: 100}
 
   validates :phone_number, presence: true
 
