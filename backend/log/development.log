@@ -1,0 +1,11 @@
+Started GET "/" for 127.0.0.1 at 2025-06-11 17:17:07 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | GC: 0.0ms)
+Completed 200 OK in 70ms (Views: 18.8ms | MongoDB: 0.0ms | GC: 0.0ms)
+
+
+Started GET "/icon.png" for 127.0.0.1 at 2025-06-11 17:17:08 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/icon.png"):
+  

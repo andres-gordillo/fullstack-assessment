@@ -11,7 +11,7 @@ class Main::V1::MessagesController < ApplicationController
         @message = Message.new(message_params.merge(session_id: session_id))
 
         if message.save 
-            send_sms_results = send_sms(@message)
+            send_sms_results = twilio_helper(@message)
 
             if(send_sms_results[:success])
                 @message.update(
@@ -41,6 +41,30 @@ class Main::V1::MessagesController < ApplicationController
     def params
         params.require(:message).permit(:messageContent, :phone_number)
     end
+
+    def twilio_helper(message)
+        begin
+          twilio_base = Twilio::REST::Client.new(
+            ENV['TWILIO_ACCOUNT_SID'],
+            ENV['TWILIO_AUTH_TOKEN']
+          )
+
+          twilio_message = twilio_base.messages.create(
+            from: ENV['TWILIO_PHONE_NUMBER'],
+            to: message.phone_number,
+            body: message.messageContent
+          )
+
+        
+            { success: true, sid: twilio_message.sid}
+        rescue Twilio::REST::RestError => e
+            { sucess: false, error: e.message}
+        rescue => e
+            { sucess: false, error: e.message} 
+        end
+        
+    end
+
 
 
 end
