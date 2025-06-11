@@ -11,11 +11,11 @@ class Message
 
   field :twilio_sid, type: String
 
-  field :status, type: String, deafult: "pending"
+  field :status, type: String, default: 'pending'
 
 
   # Data validations for cleaner data.
-  validates :messageContent, presence: true, lenght: {maximum: 100}
+  validates :messageContent, presence: true, length: {maximum: 100}
 
   validates :phone_number, presence: true
 

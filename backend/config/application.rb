@@ -24,7 +24,9 @@ module Backend
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
+    config.session_store :cookie_store, key: '_test_session'
+    config.middleware.use ActionDispatch::Cookies
+    config.middleware.use config.session_store, config.session_options
     
     config.middleware.insert_before 0, Rack::Cors do
       allow do

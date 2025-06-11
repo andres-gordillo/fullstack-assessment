@@ -9,3 +9,112 @@ Started GET "/icon.png" for 127.0.0.1 at 2025-06-11 17:17:08 -0400
   
 ActionController::RoutingError (No route matches [GET] "/icon.png"):
   
+Started POST "/api/v1/messages" for ::1 at 2025-06-11 17:29:15 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/api/v1/messages"):
+  
+Started GET "/main/v1/messages" for ::1 at 2025-06-11 17:29:52 -0400
+Processing by Main::V1::MessagesController#index as */*
+Completed 500 Internal Server Error in 6ms (MongoDB: 0.0ms | GC: 0.0ms)
+
+
+  
+ActionDispatch::Request::Session::DisabledSessionError (Your application has sessions disabled. To write to the session you must first configure a session store):
+  
+app/controllers/main/v1/messages_controller.rb:34:in 'Main::V1::MessagesController#confirm_session_id'
+Started GET "/main/v1/messages" for ::1 at 2025-06-11 17:33:16 -0400
+Processing by Main::V1::MessagesController#index as */*
+Completed 500 Internal Server Error in 26ms (MongoDB: 0.0ms | GC: 0.0ms)
+
+
+  
+Mongoid::Errors::InvalidFieldOption (
+message:
+  Invalid option :deafult provided for field :status.
+summary:
+  Mongoid requires that you only provide valid options on each field definition in order to prevent unexpected behavior later on.
+resolution:
+  When defining the field :status on 'Message', please provide valid options for the field. These are currently: as, default, identity, label, localize, fallbacks, association, pre_processed, subtype, type, overwrite, encrypt. If you meant to define a custom field option, please do so first as follows:
+
+   Mongoid::Fields.option :deafult do |model, field, value|
+     # Your logic here...
+   end
+   class Message
+     include Mongoid::Document
+     field :status, deafult: true
+   end
+
+ Refer to: https://www.mongodb.com/docs/mongoid/current/reference/fields/#custom-field-options):
+  
+app/models/message.rb:14:in '<class:Message>'
+app/models/message.rb:1:in '<main>'
+app/controllers/main/v1/messages_controller.rb:6:in 'Main::V1::MessagesController#index'
+Started GET "/" for 127.0.0.1 at 2025-06-11 17:33:50 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 30.4ms | MongoDB: 0.0ms | GC: 0.2ms)
+
+
+Started GET "/main/v1/messages" for ::1 at 2025-06-11 17:35:41 -0400
+Processing by Main::V1::MessagesController#index as */*
+Completed 500 Internal Server Error in 9ms (MongoDB: 0.0ms | GC: 0.0ms)
+
+
+  
+Mongoid::Errors::InvalidFieldOption (
+message:
+  Invalid option :deafult provided for field :status.
+summary:
+  Mongoid requires that you only provide valid options on each field definition in order to prevent unexpected behavior later on.
+resolution:
+  When defining the field :status on 'Message', please provide valid options for the field. These are currently: as, default, identity, label, localize, fallbacks, association, pre_processed, subtype, type, overwrite, encrypt. If you meant to define a custom field option, please do so first as follows:
+
+   Mongoid::Fields.option :deafult do |model, field, value|
+     # Your logic here...
+   end
+   class Message
+     include Mongoid::Document
+     field :status, deafult: true
+   end
+
+ Refer to: https://www.mongodb.com/docs/mongoid/current/reference/fields/#custom-field-options):
+  
+app/models/message.rb:14:in '<class:Message>'
+app/models/message.rb:1:in '<main>'
+app/controllers/main/v1/messages_controller.rb:6:in 'Main::V1::MessagesController#index'
+Started GET "/main/v1/messages" for ::1 at 2025-06-11 17:37:25 -0400
+Processing by Main::V1::MessagesController#index as */*
+Completed 500 Internal Server Error in 27ms (MongoDB: 0.0ms | GC: 0.0ms)
+
+
+  
+ArgumentError (Unknown validator: 'LenghtValidator')
+Caused by: NameError (uninitialized constant Message::LenghtValidator)
+
+Information for: ArgumentError (Unknown validator: 'LenghtValidator'):
+  
+app/models/message.rb:18:in '<class:Message>'
+app/models/message.rb:1:in '<main>'
+app/controllers/main/v1/messages_controller.rb:6:in 'Main::V1::MessagesController#index'
+
+Information for cause: NameError (uninitialized constant Message::LenghtValidator):
+  
+app/models/message.rb:18:in '<class:Message>'
+app/models/message.rb:1:in '<main>'
+app/controllers/main/v1/messages_controller.rb:6:in 'Main::V1::MessagesController#index'
+Started GET "/main/v1/messages" for ::1 at 2025-06-11 17:38:54 -0400
+Processing by Main::V1::MessagesController#index as */*
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:6 conn:1:1 sconn:30 | sms_development.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "bd7586a380472e99c16df1dfe1e21f5d"}, "sort" => {"created_at" => -1}, "$db" => "sms_development", "lsid" => {"id" => <BSON::Binary:0x4952 type=uuid data=0x5a79daf6a2784e89...>}}
+MONGODB | localhost:27017 req:6 | sms_development.find | SUCCEEDED | 0.014s
+Completed 200 OK in 82ms (Views: 51.0ms | MongoDB: 13.6ms | GC: 0.0ms)
+
+
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
