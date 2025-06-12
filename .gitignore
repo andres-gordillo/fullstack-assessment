@@ -2,4 +2,13 @@
 .env.local
 .env.*.local
 
-/tmp
+tmp/
+*.tmp
+*.swp
+*.swo
+*~
+
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
