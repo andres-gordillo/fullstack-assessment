@@ -1,0 +1,23 @@
+.message-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px
+}
+
+.form-main {
+    max-width: 50vw;
+    min-width: 30vw;
+}
+
+.number-form {
+    display: flex
+}
+
+.character-count {
+    align-self: flex-end;
+}

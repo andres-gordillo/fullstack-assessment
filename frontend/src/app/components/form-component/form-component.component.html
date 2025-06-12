@@ -1,13 +1,33 @@
-<div>
+<div class="form-main">
     <div class="header">
         <h2>New Message</h2>
     </div>
     <div>
         <div>
-            <span>Phone Number</span>
-        </div>
-        <div>
+            <form>
+                <div>
+                    <span>Phone Number</span>
+                </div>
+                <div>
+                    <mat-form-field class="number-form">
+                        <input matInput>
+                    </mat-form-field>
+                </div>
+                <div>
+                    <span>Message</span>
+                </div>
+                <div class="message-form">
+                    <mat-form-field>
+                        <textarea matInput></textarea>
+                    </mat-form-field>
+                    <span class="character-count">10/250</span>
+                </div>
+                <div class="button-footer">
+                    <button mat-button>Clear</button>
+                    <button mat-raised-button color="primary" type="submit">Submit</button>
+                </div>
 
+            </form>
         </div>
     </div>
 </div>
