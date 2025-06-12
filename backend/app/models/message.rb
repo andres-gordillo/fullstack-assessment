@@ -15,7 +15,7 @@ class Message
 
 
   # Data validations for cleaner data.
-  validates :message_content, presence: true, length: {maximum: 100}
+  validates :message_content, presence: true, length: {maximum: 250}
 
   validates :phone_number, presence: true
 

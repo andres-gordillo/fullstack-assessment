@@ -39,6 +39,7 @@ class Main::V1::MessagesController < ApplicationController
 
     def confirm_session_id
         # Optional: Keep minimal logging if you want to monitor sessions
+        # Used to debug cookie and session id issue.
         Rails.logger.info "Session ID: #{session.id}" if Rails.env.development?
     end
 
