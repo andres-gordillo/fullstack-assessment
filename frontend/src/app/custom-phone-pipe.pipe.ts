@@ -9,13 +9,13 @@ export class CustomPhonePipe implements PipeTransform {
 
   transform(value: any, format?: string, region?: string): string | null {
     if(!value ) {
-      return null
+      return 'Invalid Number!'
     }
 
     const cleanValue = value.toString().replace(/\D/g, '')
 
     if(cleanValue.length !== 10) {
-      return null
+      return cleanValue + ' - not a valid number!'
     }
     let newString = ''
 
