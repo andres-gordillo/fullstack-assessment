@@ -2,7 +2,7 @@
 .env.local
 .env.*.local
 
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
+backend/log/*
+backend/tmp/*
+!backend/log/.keep
+!backend/tmp/.keep
