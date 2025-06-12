@@ -3,13 +3,13 @@ export interface Message {
     phone_number: string;
     session_id?: string;
     twilio_id?: string;
-    messageContent: string;
+    message_content: string;
     status: 'pending' | 'sent' | 'failed';
     created_at: string;
     updated_at: string;
 }
 
 export interface CreateMessageResponse {
-    messageContent: string;
+    message_content: string;
     phone_number: string;
 }

@@ -20,6 +20,9 @@ export class MessageService {
     private error = signal<string | null>(null)
     private loading = signal(false)
 
+
+    readonly checkLoading = this.loading.asReadonly()
+
     private dataRefresh$ = new BehaviorSubject<void>(undefined)
 
     private messagesData = toSignal(
