@@ -176,9 +176,12 @@
 </style>
 
 <main class="main">
-  <div class="content">
-    <app-form-component (messageSent)="onNewMessage($event)"></app-form-component>
-    <app-list-component #listComponent></app-list-component>
+  <div>
+    <h2 class="app-text">MY SMS MESSENGER</h2>
+    <div class="content">
+      <app-form-component (messageSent)="onNewMessage($event)"></app-form-component>
+      <app-list-component #listComponent></app-list-component>
+    </div>
   </div>
 </main>
 

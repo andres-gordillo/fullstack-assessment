@@ -41008,3 +41008,2024 @@ Completed 200 OK in 31ms (Views: 3.8ms | MongoDB: 25.9ms | GC: 0.0ms)
 [dotenv] Loaded [33m.env[0m
 [dotenv] Set [36mTWILIO_ACCOUNT_SID[0m, [36mTWILIO_AUTH_TOKEN[0m, and [36mTWILIO_PHONE_NUMBER[0m
 [dotenv] Loaded [33m.env[0m
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:06:42 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | There was a change in the members of the 'Unknown' topology.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 req:6 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:6 | messages_stack.find | SUCCEEDED | 0.016s
+Completed 200 OK in 111ms (Views: 80.2ms | MongoDB: 15.6ms | GC: 0.3ms)
+
+
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone' [awaited].
+MONGODB | There was a change in the members of the 'Single' topology.
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:06:53 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:8 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:8 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 4.1ms | MongoDB: 12.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:07:01 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:9 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:9 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 29ms (Views: 4.7ms | MongoDB: 23.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:07:18 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:12 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:12 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 27ms (Views: 4.3ms | MongoDB: 21.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:07:23 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:14 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:14 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 19ms (Views: 4.2ms | MongoDB: 14.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:07:30 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:15 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:15 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 18ms (Views: 4.2ms | MongoDB: 13.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:07:38 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:17 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:17 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 24ms (Views: 11.0ms | MongoDB: 12.5ms | GC: 0.2ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:11 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: b85c92aa07b7382a863c7d8e839b6eac
+MONGODB | localhost:27017 req:51 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "b85c92aa07b7382a863c7d8e839b6eac"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:51 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 2.0ms | MongoDB: 19.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:11 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 475dde5eb9161464924dd7599d763fca
+MONGODB | localhost:27017 req:52 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "475dde5eb9161464924dd7599d763fca"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:52 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 2.0ms | MongoDB: 21.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:20 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 41715b5cf612c7a851e0686a83129e29
+MONGODB | localhost:27017 req:54 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "41715b5cf612c7a851e0686a83129e29"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:54 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 2.0ms | MongoDB: 20.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:21 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 3dc87889a4e18890d3e32a211ba6f91a
+MONGODB | localhost:27017 req:55 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "3dc87889a4e18890d3e32a211ba6f91a"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:55 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 20.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:21 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: a1772d0e3fd3b297c6a4aea94ed022c9
+MONGODB | localhost:27017 req:56 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a1772d0e3fd3b297c6a4aea94ed022c9"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:56 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:21 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 9af030576ad7f819abfc131297b88f1c
+MONGODB | localhost:27017 req:57 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9af030576ad7f819abfc131297b88f1c"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:57 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 21.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:22 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: f2cb39a9e79e34218439115286cc9601
+MONGODB | localhost:27017 req:58 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f2cb39a9e79e34218439115286cc9601"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:58 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:22 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: aa7540bf9a31fa631b2daef08fa00847
+MONGODB | localhost:27017 req:59 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "aa7540bf9a31fa631b2daef08fa00847"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:59 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:22 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 1fd407b25ba8e744cb33e23207274d5c
+MONGODB | localhost:27017 req:60 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "1fd407b25ba8e744cb33e23207274d5c"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:60 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 15ms (Views: 1.8ms | MongoDB: 12.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:22 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 81fea2f730a2dee30d10b76ad6bc998b
+MONGODB | localhost:27017 req:61 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "81fea2f730a2dee30d10b76ad6bc998b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:61 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:23 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: c6bccc71fddb7661f8335d704a0ad172
+MONGODB | localhost:27017 req:63 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "c6bccc71fddb7661f8335d704a0ad172"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:63 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:23 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 9f7bb71d2f4c153549c41f32844fdc53
+MONGODB | localhost:27017 req:64 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9f7bb71d2f4c153549c41f32844fdc53"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:64 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 21ms (Views: 1.8ms | MongoDB: 18.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:30 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 724569a170b7afd5d161a1573922d58d
+MONGODB | localhost:27017 req:65 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "724569a170b7afd5d161a1573922d58d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:65 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:31 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 9e16a775ec00a62771bee8a16a682995
+MONGODB | localhost:27017 req:66 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9e16a775ec00a62771bee8a16a682995"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:66 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:31 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e6836d4472c50364739792c7155d0033
+MONGODB | localhost:27017 req:67 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e6836d4472c50364739792c7155d0033"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:67 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:31 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 4a0d5c31f1cc75de8a7cdcd2959ab51d
+MONGODB | localhost:27017 req:68 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4a0d5c31f1cc75de8a7cdcd2959ab51d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:68 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 21ms (Views: 1.6ms | MongoDB: 18.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:32 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: eba8c322e0cf55b4b0c55b84b5ef7116
+MONGODB | localhost:27017 req:69 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "eba8c322e0cf55b4b0c55b84b5ef7116"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:69 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:32 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 1d1499b254ee07d1c0679833ab393e44
+MONGODB | localhost:27017 req:70 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "1d1499b254ee07d1c0679833ab393e44"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:70 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 20ms (Views: 1.6ms | MongoDB: 18.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:33 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 8503ea38858ebf1698155949bbf70324
+MONGODB | localhost:27017 req:72 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "8503ea38858ebf1698155949bbf70324"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:72 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:33 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: ef90fa3fd389cedd339a5c083a219612
+MONGODB | localhost:27017 req:73 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "ef90fa3fd389cedd339a5c083a219612"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:73 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 20.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:37 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 9e42aaf6d211628e0b592a45cfbe48fa
+MONGODB | localhost:27017 req:74 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9e42aaf6d211628e0b592a45cfbe48fa"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:74 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:37 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: c4867c2b54653b047eade2cbc5505750
+MONGODB | localhost:27017 req:75 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "c4867c2b54653b047eade2cbc5505750"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:75 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 20.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:13:40 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: ed767eced88be492631371ec876b3f99
+MONGODB | localhost:27017 req:76 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "ed767eced88be492631371ec876b3f99"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:76 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 20ms (Views: 1.7ms | MongoDB: 18.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:13:40 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 702e7565fdb88e11bacae376a1f27578
+MONGODB | localhost:27017 req:77 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "702e7565fdb88e11bacae376a1f27578"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:77 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.5ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:14:07 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: eab08eae347f45186ac89e6581eedcca
+MONGODB | localhost:27017 req:81 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "eab08eae347f45186ac89e6581eedcca"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:81 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:14:07 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 861acd37a5db9fa17d9b58e63b8fa9b2
+MONGODB | localhost:27017 req:82 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "861acd37a5db9fa17d9b58e63b8fa9b2"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:82 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 21.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:14:07 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 0bce1498aa5fca1424e0a84726f08ae5
+MONGODB | localhost:27017 req:83 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "0bce1498aa5fca1424e0a84726f08ae5"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:83 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:14:07 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 58d1b10ec3663e51a69d5a678717f60f
+MONGODB | localhost:27017 req:84 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "58d1b10ec3663e51a69d5a678717f60f"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:84 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.9ms | MongoDB: 19.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:14:53 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: a54987a7f8652a1abc0f24be66c2bace
+MONGODB | localhost:27017 req:90 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a54987a7f8652a1abc0f24be66c2bace"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:90 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:14:53 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: c373bb4bac725ba446f3eec2df7f62bf
+MONGODB | localhost:27017 req:91 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "c373bb4bac725ba446f3eec2df7f62bf"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:91 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 2.1ms | MongoDB: 20.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:15:04 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 643244694bf2535acad5e70ebed4327a
+MONGODB | localhost:27017 req:93 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "643244694bf2535acad5e70ebed4327a"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:93 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:15:04 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: fc9523db8b20712aeafb39a1eeb0e091
+MONGODB | localhost:27017 req:94 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "fc9523db8b20712aeafb39a1eeb0e091"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:94 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:15:05 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 9ee78bc69a40da8c3ea8fdf774495eb8
+MONGODB | localhost:27017 req:95 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9ee78bc69a40da8c3ea8fdf774495eb8"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:95 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:15:05 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 36a9ae45e0db1eeb403bed6597b74b9d
+MONGODB | localhost:27017 req:96 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "36a9ae45e0db1eeb403bed6597b74b9d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:96 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:15:05 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 47900532c342cfbe757ea3c174471e9f
+MONGODB | localhost:27017 req:97 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "47900532c342cfbe757ea3c174471e9f"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:97 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 19ms (Views: 1.7ms | MongoDB: 17.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:15:06 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 6b5b18c5c90de8909ffe690414eec810
+MONGODB | localhost:27017 req:98 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "6b5b18c5c90de8909ffe690414eec810"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:98 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:19:13 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 4d26787fd0bd25a5185afeb16132bbe8
+MONGODB | localhost:27017 req:123 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4d26787fd0bd25a5185afeb16132bbe8"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:123 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 20ms (Views: 2.0ms | MongoDB: 17.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:19:13 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: ce96ab3d13c930ba9e438a0178cbdd49
+MONGODB | localhost:27017 req:124 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "ce96ab3d13c930ba9e438a0178cbdd49"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:124 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.9ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:19:13 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e8490764e8bb00a105d87b6fca320282
+MONGODB | localhost:27017 req:125 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e8490764e8bb00a105d87b6fca320282"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:125 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:19:13 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 06859cbfd09c7db174dd6c20a55c554c
+MONGODB | localhost:27017 req:126 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "06859cbfd09c7db174dd6c20a55c554c"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:126 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:31 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 224d54b94d5938628aaed9e329d00359
+MONGODB | localhost:27017 req:135 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "224d54b94d5938628aaed9e329d00359"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:135 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 20.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:32 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 11570c9e077fc99c95069e22ae23680a
+MONGODB | localhost:27017 req:136 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "11570c9e077fc99c95069e22ae23680a"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:136 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:32 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 851d72abbfc3cb771ea61729462ea52b
+MONGODB | localhost:27017 req:137 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "851d72abbfc3cb771ea61729462ea52b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:137 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:32 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: baef3611456d319ebcdd2a1058131783
+MONGODB | localhost:27017 req:138 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "baef3611456d319ebcdd2a1058131783"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:138 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:33 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e47ee1267ba9ebe57b6feb6f2793d90a
+MONGODB | localhost:27017 req:139 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e47ee1267ba9ebe57b6feb6f2793d90a"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:139 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:33 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: defb485ed2b9a9cacd403397ca1ba3a4
+MONGODB | localhost:27017 req:140 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "defb485ed2b9a9cacd403397ca1ba3a4"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:140 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:42 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: fa4c55afe343f3306986d3f96bc61625
+MONGODB | localhost:27017 req:142 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "fa4c55afe343f3306986d3f96bc61625"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:142 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 2.0ms | MongoDB: 19.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:42 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 0313faf784b291613f37b8be0b46a314
+MONGODB | localhost:27017 req:143 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "0313faf784b291613f37b8be0b46a314"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:143 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 2.1ms | MongoDB: 21.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:42 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 6578752f13a7f0a38075b7a1814ee511
+MONGODB | localhost:27017 req:144 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "6578752f13a7f0a38075b7a1814ee511"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:144 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.9ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:43 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f0e2d0e3a048b703d01b07e76bbab2d4
+MONGODB | localhost:27017 req:145 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f0e2d0e3a048b703d01b07e76bbab2d4"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:145 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 21ms (Views: 1.9ms | MongoDB: 18.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:20:44 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 3e49451a662ed4273007c06164b4896a
+MONGODB | localhost:27017 req:146 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "3e49451a662ed4273007c06164b4896a"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:146 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:20:44 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: a99a894e102007fcf0d37e6b21aadd08
+MONGODB | localhost:27017 req:148 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a99a894e102007fcf0d37e6b21aadd08"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:148 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.9ms | MongoDB: 20.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:22:48 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 14b51e476ec46ce746d8280615588dbc
+MONGODB | localhost:27017 req:161 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "14b51e476ec46ce746d8280615588dbc"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:161 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 20.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:22:48 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 447493f1153bf57bd7ccb91ec4739fd2
+MONGODB | localhost:27017 req:162 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "447493f1153bf57bd7ccb91ec4739fd2"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:162 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:22:49 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 6f3c2c8a21fb3b2302ad0b19fc7898cf
+MONGODB | localhost:27017 req:163 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "6f3c2c8a21fb3b2302ad0b19fc7898cf"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:163 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 21ms (Views: 1.8ms | MongoDB: 19.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:22:49 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 18534b8a9fb87f747b3e818587aea7d2
+MONGODB | localhost:27017 req:164 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "18534b8a9fb87f747b3e818587aea7d2"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:164 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 27ms (Views: 1.9ms | MongoDB: 24.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:24:17 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: bca44f3a692c17692ec71567d13b1f97
+MONGODB | localhost:27017 req:174 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "bca44f3a692c17692ec71567d13b1f97"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:174 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 21.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:24:17 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: b28e66617ae22ab47f2c0d087b191ea4
+MONGODB | localhost:27017 req:175 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "b28e66617ae22ab47f2c0d087b191ea4"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:175 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:24:25 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: bd61b6ae38717d88e33bdd90ab8932c9
+MONGODB | localhost:27017 req:177 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "bd61b6ae38717d88e33bdd90ab8932c9"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:177 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 21.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:24:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 4304c6864ca4521f8e37b71940c73fa9
+MONGODB | localhost:27017 req:178 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4304c6864ca4521f8e37b71940c73fa9"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:178 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 21ms (Views: 1.6ms | MongoDB: 19.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:24:29 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 925f982205d1b2496753f972ed78f408
+MONGODB | localhost:27017 req:179 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "925f982205d1b2496753f972ed78f408"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:179 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 20.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:24:29 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: ec97886efd4526fc2cecbbf41240b0fb
+MONGODB | localhost:27017 req:180 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "ec97886efd4526fc2cecbbf41240b0fb"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:180 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.5ms | MongoDB: 21.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:24:30 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 42c96eea5b619f473698015463ec82ec
+MONGODB | localhost:27017 req:181 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "42c96eea5b619f473698015463ec82ec"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:181 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:24:30 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 22ca5a7c072280d938f22e87cad74d6e
+MONGODB | localhost:27017 req:182 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "22ca5a7c072280d938f22e87cad74d6e"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:182 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.5ms | MongoDB: 22.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:24:30 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 4bb43bbc1de8df95eddfe86bdf9f1dee
+MONGODB | localhost:27017 req:183 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4bb43bbc1de8df95eddfe86bdf9f1dee"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:183 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:24:30 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 4e35e7764e5f676ab3707c79b161358f
+MONGODB | localhost:27017 req:184 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4e35e7764e5f676ab3707c79b161358f"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:184 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.8ms | MongoDB: 21.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:01 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 5d768efde888d6e4fe2ba95509966f82
+MONGODB | localhost:27017 req:188 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "5d768efde888d6e4fe2ba95509966f82"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:188 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 2.0ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:01 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 225b08f84d1e48f6d05f37c7cf200190
+MONGODB | localhost:27017 req:189 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "225b08f84d1e48f6d05f37c7cf200190"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:189 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:02 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 7d4f566ecddf4ee5ca4f458a3594e7af
+MONGODB | localhost:27017 req:190 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "7d4f566ecddf4ee5ca4f458a3594e7af"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:190 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:02 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: d4a802ccec74dfba72ba9bb21be4ce74
+MONGODB | localhost:27017 req:191 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "d4a802ccec74dfba72ba9bb21be4ce74"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:191 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:03 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 1836bf122e6efdceacd3348aa601d26b
+MONGODB | localhost:27017 req:192 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "1836bf122e6efdceacd3348aa601d26b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:192 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: a346a5ec0f9df11e49b995d05f6ea5ad
+MONGODB | localhost:27017 req:193 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a346a5ec0f9df11e49b995d05f6ea5ad"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:193 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:04 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 936141b3075d077bc8330b434caa92bc
+MONGODB | localhost:27017 req:194 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "936141b3075d077bc8330b434caa92bc"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:194 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:04 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 81463e45c6e3b5955ed50fdd447a58c7
+MONGODB | localhost:27017 req:195 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "81463e45c6e3b5955ed50fdd447a58c7"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:195 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:07 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e2443d012a61da3ad8eb75b3dc4073e7
+MONGODB | localhost:27017 req:197 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e2443d012a61da3ad8eb75b3dc4073e7"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:197 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:07 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 5ad28d9820259817e7574b71d7a8f4a7
+MONGODB | localhost:27017 req:198 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "5ad28d9820259817e7574b71d7a8f4a7"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:198 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:25:08 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 04c8bf7fa5dec5283bb007429202bf88
+MONGODB | localhost:27017 req:199 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "04c8bf7fa5dec5283bb007429202bf88"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:199 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:08 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 6acdfd9f09a8786e42ea9d68d0d90e70
+MONGODB | localhost:27017 req:200 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "6acdfd9f09a8786e42ea9d68d0d90e70"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:200 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 21.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:25:54 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:205 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:205 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 26ms (Views: 4.1ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:26:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:207 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:207 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 4.1ms | MongoDB: 11.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:26:50 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:213 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:213 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 18ms (Views: 4.0ms | MongoDB: 12.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:27:23 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:217 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:217 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 20ms (Views: 3.9ms | MongoDB: 15.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:27:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:220 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:220 | messages_stack.find | SUCCEEDED | 0.026s
+Completed 200 OK in 55ms (Views: 28.5ms | MongoDB: 25.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:27:42 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:221 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:221 | messages_stack.find | SUCCEEDED | 0.026s
+Completed 200 OK in 31ms (Views: 3.9ms | MongoDB: 26.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:29:16 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:232 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:232 | messages_stack.find | SUCCEEDED | 0.026s
+Completed 200 OK in 31ms (Views: 4.3ms | MongoDB: 25.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:29:24 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: da752854a2bc074e72b767e06cf57fb8
+MONGODB | localhost:27017 req:233 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "da752854a2bc074e72b767e06cf57fb8"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:233 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:29:24 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: cb0db8bccd51a66be57a9c1006d439bf
+MONGODB | localhost:27017 req:234 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "cb0db8bccd51a66be57a9c1006d439bf"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:234 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:29:26 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 9cc40e1a5c8c68730f8a211f4498c003
+MONGODB | localhost:27017 req:236 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "9cc40e1a5c8c68730f8a211f4498c003"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:236 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:29:26 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 8ca73a81af98fdc0b06d2953bc867755
+MONGODB | localhost:27017 req:237 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "8ca73a81af98fdc0b06d2953bc867755"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:237 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 20.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:29:27 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: c6b721ee43ac10a114d237b70691c597
+MONGODB | localhost:27017 req:238 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "c6b721ee43ac10a114d237b70691c597"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:238 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:29:27 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 3a83a060fd2266a1f07129c5c921b636
+MONGODB | localhost:27017 req:239 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "3a83a060fd2266a1f07129c5c921b636"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:239 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.9ms | MongoDB: 21.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:30:33 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 90058aebde1a395dbda0e72a7d4e9b4f
+MONGODB | localhost:27017 req:246 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "90058aebde1a395dbda0e72a7d4e9b4f"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:246 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:30:33 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: de8825acc796393c42dcad569ed28579
+MONGODB | localhost:27017 req:247 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "de8825acc796393c42dcad569ed28579"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:247 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.5ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:30:36 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e33124a042eaf4d8e76e5b19a0dacaea
+MONGODB | localhost:27017 req:249 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e33124a042eaf4d8e76e5b19a0dacaea"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:249 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:30:36 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 10c68dc4c8588973905df4d60f2a7f95
+MONGODB | localhost:27017 req:250 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "10c68dc4c8588973905df4d60f2a7f95"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:250 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 16ms (Views: 1.7ms | MongoDB: 13.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:30:37 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: a34bc76adf2f54d31f7fae969cdc9efd
+MONGODB | localhost:27017 req:251 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a34bc76adf2f54d31f7fae969cdc9efd"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:251 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.5ms | MongoDB: 20.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:30:37 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: e9f19c33043cbe3a1bf41ed15e9cf67d
+MONGODB | localhost:27017 req:252 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e9f19c33043cbe3a1bf41ed15e9cf67d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:252 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 21.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:30:38 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 73ba8dfbaf43910f788ac12feaf36d90
+MONGODB | localhost:27017 req:253 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "73ba8dfbaf43910f788ac12feaf36d90"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:253 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.8ms | MongoDB: 19.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:30:38 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 5c61bd052c71ea307a9decb7b1c87362
+MONGODB | localhost:27017 req:254 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "5c61bd052c71ea307a9decb7b1c87362"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:254 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.7ms | MongoDB: 21.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:32:00 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: fd31b094eb7dd9baa110fae8b986121d
+MONGODB | localhost:27017 req:263 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "fd31b094eb7dd9baa110fae8b986121d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:263 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 20.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:32:00 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 8ba20d608ea5b23fda42a8c44dfe2e06
+MONGODB | localhost:27017 req:264 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "8ba20d608ea5b23fda42a8c44dfe2e06"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:264 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:32:03 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 75be331d1baa330a4dbe7ac08a730b66
+MONGODB | localhost:27017 req:265 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "75be331d1baa330a4dbe7ac08a730b66"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:265 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 24ms (Views: 1.6ms | MongoDB: 22.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:32:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 96e2c79fc06f6b9ec644d307a738ae97
+MONGODB | localhost:27017 req:266 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "96e2c79fc06f6b9ec644d307a738ae97"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:266 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.6ms | MongoDB: 20.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:32:04 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: c9f27ed3fa003a6f3ec646b584a76d1d
+MONGODB | localhost:27017 req:267 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "c9f27ed3fa003a6f3ec646b584a76d1d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:267 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.6ms | MongoDB: 20.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:32:04 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 957d16f01bcee2ac991f2d691f54a1eb
+MONGODB | localhost:27017 req:268 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "957d16f01bcee2ac991f2d691f54a1eb"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:268 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:32:16 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: 2164042d687d2d6f5c4e16248cb88b58
+MONGODB | localhost:27017 req:271 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "2164042d687d2d6f5c4e16248cb88b58"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:271 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 20.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:32:16 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: 4b58b7f85ef87b982b083e5c3488f92c
+MONGODB | localhost:27017 req:272 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "4b58b7f85ef87b982b083e5c3488f92c"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:272 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.8ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=1" for ::1 at 2025-06-12 14:33:25 -0400
+Processing by Main::V1::MessagesController#index as HTML
+  Parameters: {"page" => "1", "per_page" => "1"}
+Session ID: e94e2e454114bdf26683f8073d10e1ea
+MONGODB | localhost:27017 req:279 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "e94e2e454114bdf26683f8073d10e1ea"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:279 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 23ms (Views: 1.7ms | MongoDB: 21.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:33:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: a3ba2ad77834db0353e2aea083cabb9d
+MONGODB | localhost:27017 req:280 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "a3ba2ad77834db0353e2aea083cabb9d"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:280 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 22ms (Views: 1.7ms | MongoDB: 19.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:33:50 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:284 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:284 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 19ms (Views: 3.8ms | MongoDB: 14.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:34:00 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:286 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:286 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 24ms (Views: 4.1ms | MongoDB: 18.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:37:21 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:307 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:307 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 31ms (Views: 5.7ms | MongoDB: 22.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:37:23 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:308 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:308 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 27ms (Views: 4.1ms | MongoDB: 22.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:37:47 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:312 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:312 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 3.8ms | MongoDB: 25.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:37:49 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:313 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:313 | messages_stack.find | SUCCEEDED | 0.016s
+Completed 200 OK in 22ms (Views: 4.1ms | MongoDB: 16.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:37:54 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:314 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:314 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 31ms (Views: 5.2ms | MongoDB: 25.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:40:57 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:334 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:334 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 26ms (Views: 12.6ms | MongoDB: 12.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:42:43 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:345 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:345 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 17ms (Views: 4.5ms | MongoDB: 11.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:43:56 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:353 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:353 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 16ms (Views: 3.9ms | MongoDB: 11.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:44:18 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:357 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:357 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 3.9ms | MongoDB: 12.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:45:55 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:367 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:367 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.4ms | MongoDB: 17.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:47:08 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:376 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:376 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 18ms (Views: 4.2ms | MongoDB: 13.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:55:01 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:424 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:424 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 17ms (Views: 4.3ms | MongoDB: 11.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:55:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:425 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:425 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 4.4ms | MongoDB: 11.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:55:05 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:426 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:426 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 4.5ms | MongoDB: 11.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:56:42 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:437 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:437 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 18ms (Views: 3.9ms | MongoDB: 13.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:56:46 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:438 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:438 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 17ms (Views: 4.9ms | MongoDB: 11.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:57:54 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:446 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:446 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 18ms (Views: 4.3ms | MongoDB: 12.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:57:55 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:447 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:447 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 30ms (Views: 4.5ms | MongoDB: 24.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 14:59:08 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:455 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:455 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 20ms (Views: 6.8ms | MongoDB: 12.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:00:08 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:462 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:462 | messages_stack.find | SUCCEEDED | 0.023s
+Completed 200 OK in 28ms (Views: 3.7ms | MongoDB: 23.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:00:12 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:464 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:464 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 19ms (Views: 3.7ms | MongoDB: 14.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:01:28 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:472 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:472 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.7ms | MongoDB: 19.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:01:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:475 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:475 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 16ms (Views: 4.5ms | MongoDB: 11.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:04:09 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:491 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:491 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 19ms (Views: 4.2ms | MongoDB: 13.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:05:04 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:497 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:497 | messages_stack.find | SUCCEEDED | 0.023s
+Completed 200 OK in 28ms (Views: 4.5ms | MongoDB: 22.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:09:38 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:525 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:525 | messages_stack.find | SUCCEEDED | 0.023s
+Completed 200 OK in 28ms (Views: 4.1ms | MongoDB: 23.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:11:10 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:536 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:536 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 4.0ms | MongoDB: 11.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:12:14 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:543 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:543 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 45ms (Views: 24.8ms | MongoDB: 16.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:12:28 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:545 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:545 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 31ms (Views: 5.2ms | MongoDB: 24.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:13:26 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:552 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:552 | messages_stack.find | SUCCEEDED | 0.026s
+Completed 200 OK in 31ms (Views: 4.3ms | MongoDB: 25.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:15:29 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:565 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:565 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 20ms (Views: 5.5ms | MongoDB: 13.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:24:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:618 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:618 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 18ms (Views: 3.6ms | MongoDB: 13.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:24:07 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:619 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:619 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 21ms (Views: 3.8ms | MongoDB: 16.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:24:29 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:622 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:622 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 16ms (Views: 3.8ms | MongoDB: 11.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:25:58 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:632 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:632 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.6ms | MongoDB: 19.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:26:26 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:636 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:636 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 19ms (Views: 3.6ms | MongoDB: 14.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:26:45 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:639 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:639 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.1ms | MongoDB: 19.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:26:47 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:640 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:640 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.3ms | MongoDB: 19.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:26:57 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:642 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:642 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 4.3ms | MongoDB: 25.2ms | GC: 0.2ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:27:37 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:647 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:647 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 34ms (Views: 7.2ms | MongoDB: 23.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:30:19 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:664 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:664 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.3ms | MongoDB: 18.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:30:24 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:666 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:666 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.0ms | MongoDB: 19.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:30:33 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:668 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:668 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 25ms (Views: 3.0ms | MongoDB: 21.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:30:37 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:669 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:669 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 24ms (Views: 3.2ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:31:45 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:677 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:677 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 30ms (Views: 4.6ms | MongoDB: 24.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:31:54 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:679 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:679 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.1ms | MongoDB: 18.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:32:38 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:684 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:684 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 16ms (Views: 3.9ms | MongoDB: 11.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:32:49 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:686 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:686 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 29ms (Views: 3.7ms | MongoDB: 24.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:33:19 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:690 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:690 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 4.3ms | MongoDB: 24.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:33:58 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:695 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:695 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 21ms (Views: 3.1ms | MongoDB: 17.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:34:53 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:701 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:701 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 20ms (Views: 4.2ms | MongoDB: 14.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:35:35 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:707 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:707 | messages_stack.find | SUCCEEDED | 0.012s
+Completed 200 OK in 17ms (Views: 3.9ms | MongoDB: 12.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:36:19 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:712 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:712 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 15ms (Views: 3.4ms | MongoDB: 11.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:36:29 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:714 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:714 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 19ms (Views: 4.6ms | MongoDB: 12.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:36:47 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:717 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:717 | messages_stack.find | SUCCEEDED | 0.013s
+Completed 200 OK in 18ms (Views: 3.9ms | MongoDB: 12.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:37:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:722 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:722 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 21ms (Views: 5.0ms | MongoDB: 14.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:37:34 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:723 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:723 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 28ms (Views: 3.6ms | MongoDB: 23.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:38:49 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:732 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:732 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 28ms (Views: 4.5ms | MongoDB: 22.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:40:51 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:745 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:745 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.3ms | MongoDB: 19.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:41:07 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:748 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:748 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 3.9ms | MongoDB: 25.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:43:48 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:765 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:765 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 19ms (Views: 3.6ms | MongoDB: 15.0ms | GC: 0.0ms)
+
+
+Started POST "/main/v1/messages" for ::1 at 2025-06-12 15:44:42 -0400
+Processing by Main::V1::MessagesController#create as HTML
+  Parameters: {"message" => {"message_content" => "Testing", "phone_number" => "3476857975"}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:771 conn:1:1 sconn:109 | messages_stack.insert | STARTED | {"insert" => "messages", "ordered" => true, "documents" => [{"_id" => BSON::ObjectId('684b2e2a492b5400c0775903'), "status" => "pending", "message_content" => "Testing", "phone_number" => "3476857975", "session_id" => "f25e396f8b91761a1bd49bb97003e21b"...
+MONGODB | localhost:27017 req:771 | messages_stack.insert | SUCCEEDED | 0.020s
+MONGODB | localhost:27017 req:772 conn:1:1 sconn:109 | messages_stack.update | STARTED | {"update" => "messages", "ordered" => true, "updates" => [{"q" => {"_id" => BSON::ObjectId('684b2e2a492b5400c0775903')}, "u" => {"$set" => {"twilio_sid" => "SM98ee484e3d525705dfd0faa052f9ca8c", "status" => "sent", "updated_at" => 2025-06-12 19:44:43.7...
+MONGODB | localhost:27017 req:772 | messages_stack.update | SUCCEEDED | 0.025s
+Completed 201 Created in 1372ms (Views: 0.9ms | MongoDB: 44.5ms | GC: 0.8ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:44:43 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:773 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:773 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 27ms (Views: 8.0ms | MongoDB: 18.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:45:31 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:779 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:779 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 20ms (Views: 3.2ms | MongoDB: 15.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:45:35 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:781 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:781 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.8ms | MongoDB: 17.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:46:00 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:784 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:784 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 24ms (Views: 3.9ms | MongoDB: 19.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:46:03 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:785 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:785 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 22ms (Views: 4.3ms | MongoDB: 17.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:46:34 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:789 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:789 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 24ms (Views: 4.3ms | MongoDB: 18.5ms | GC: 0.0ms)
+
+
+Started POST "/main/v1/messages" for ::1 at 2025-06-12 15:47:19 -0400
+Processing by Main::V1::MessagesController#create as HTML
+  Parameters: {"message" => {"message_content" => "This message is to show how I can change the button text on sending.", "phone_number" => "3476857975"}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:795 conn:1:1 sconn:109 | messages_stack.insert | STARTED | {"insert" => "messages", "ordered" => true, "documents" => [{"_id" => BSON::ObjectId('684b2ec7492b5400c0775904'), "status" => "pending", "message_content" => "This message is to show how I can change the button text on sending.", "phone_number" => "34...
+MONGODB | localhost:27017 req:795 | messages_stack.insert | SUCCEEDED | 0.020s
+MONGODB | localhost:27017 req:796 conn:1:1 sconn:109 | messages_stack.update | STARTED | {"update" => "messages", "ordered" => true, "updates" => [{"q" => {"_id" => BSON::ObjectId('684b2ec7492b5400c0775904')}, "u" => {"$set" => {"twilio_sid" => "SMf5ecd322b269e86f7e9bd1968c4654cd", "status" => "sent", "updated_at" => 2025-06-12 19:47:19.8...
+MONGODB | localhost:27017 req:796 | messages_stack.update | SUCCEEDED | 0.013s
+Completed 201 Created in 276ms (Views: 0.4ms | MongoDB: 33.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:47:19 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:797 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:797 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 24ms (Views: 4.0ms | MongoDB: 19.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:47:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:800 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:800 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.8ms | MongoDB: 18.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:47:42 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:801 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:801 | messages_stack.find | SUCCEEDED | 0.015s
+Completed 200 OK in 20ms (Views: 3.6ms | MongoDB: 15.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:47:48 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:803 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:803 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 24ms (Views: 3.5ms | MongoDB: 19.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:47:50 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:804 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:804 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 22ms (Views: 3.7ms | MongoDB: 17.4ms | GC: 0.0ms)
+
+
+Started POST "/main/v1/messages" for ::1 at 2025-06-12 15:48:08 -0400
+Processing by Main::V1::MessagesController#create as HTML
+  Parameters: {"message" => {"message_content" => "Testing window alert!", "phone_number" => "3476857975"}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:807 conn:1:1 sconn:109 | messages_stack.insert | STARTED | {"insert" => "messages", "ordered" => true, "documents" => [{"_id" => BSON::ObjectId('684b2ef8492b5400c0775905'), "status" => "pending", "message_content" => "Testing window alert!", "phone_number" => "3476857975", "session_id" => "f25e396f8b91761a1bd...
+MONGODB | localhost:27017 req:807 | messages_stack.insert | SUCCEEDED | 0.020s
+MONGODB | localhost:27017 req:808 conn:1:1 sconn:109 | messages_stack.update | STARTED | {"update" => "messages", "ordered" => true, "updates" => [{"q" => {"_id" => BSON::ObjectId('684b2ef8492b5400c0775905')}, "u" => {"$set" => {"twilio_sid" => "SMb63c22947ce3fc5858c60537cde19c93", "status" => "sent", "updated_at" => 2025-06-12 19:48:08.9...
+MONGODB | localhost:27017 req:808 | messages_stack.update | SUCCEEDED | 0.014s
+Completed 201 Created in 302ms (Views: 0.4ms | MongoDB: 33.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:48:09 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:809 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:809 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 23ms (Views: 4.7ms | MongoDB: 17.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:50:08 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:822 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:822 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 25ms (Views: 3.8ms | MongoDB: 20.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:50:31 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:825 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:825 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 24ms (Views: 3.6ms | MongoDB: 19.6ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:50:35 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:826 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:826 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 23ms (Views: 4.2ms | MongoDB: 17.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:50:58 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:830 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:830 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.5ms | MongoDB: 19.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:52:17 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:839 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:839 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.8ms | MongoDB: 17.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:52:18 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:840 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:840 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.5ms | MongoDB: 18.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:53:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:847 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:847 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.7ms | MongoDB: 18.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:56:54 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:869 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:869 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 23ms (Views: 3.7ms | MongoDB: 18.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:57:17 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:873 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:873 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 22ms (Views: 4.2ms | MongoDB: 17.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:57:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:874 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:874 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 24ms (Views: 3.9ms | MongoDB: 19.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:57:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:877 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:877 | messages_stack.find | SUCCEEDED | 0.016s
+Completed 200 OK in 20ms (Views: 3.9ms | MongoDB: 16.0ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:57:58 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:880 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:880 | messages_stack.find | SUCCEEDED | 0.019s
+Completed 200 OK in 23ms (Views: 3.7ms | MongoDB: 18.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:58:38 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:885 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:885 | messages_stack.find | SUCCEEDED | 0.018s
+Completed 200 OK in 22ms (Views: 3.6ms | MongoDB: 17.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:59:53 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:893 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:893 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 22ms (Views: 4.5ms | MongoDB: 17.2ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 15:59:56 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:894 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:894 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 22ms (Views: 3.9ms | MongoDB: 17.5ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:01:10 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:903 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:903 | messages_stack.find | SUCCEEDED | 0.017s
+Completed 200 OK in 21ms (Views: 3.9ms | MongoDB: 16.9ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:01:25 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:905 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:905 | messages_stack.find | SUCCEEDED | 0.021s
+Completed 200 OK in 27ms (Views: 5.1ms | MongoDB: 20.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:01:30 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:907 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:907 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 16ms (Views: 4.6ms | MongoDB: 10.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:01:44 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:909 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:909 | messages_stack.find | SUCCEEDED | 0.022s
+Completed 200 OK in 28ms (Views: 4.5ms | MongoDB: 22.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:02:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:916 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:916 | messages_stack.find | SUCCEEDED | 0.027s
+Completed 200 OK in 33ms (Views: 5.6ms | MongoDB: 26.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:04:12 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:926 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:926 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 4.3ms | MongoDB: 25.3ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:04:21 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:928 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:928 | messages_stack.find | SUCCEEDED | 0.025s
+Completed 200 OK in 30ms (Views: 4.6ms | MongoDB: 24.8ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:04:32 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:930 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:930 | messages_stack.find | SUCCEEDED | 0.024s
+Completed 200 OK in 62ms (Views: 37.0ms | MongoDB: 23.5ms | GC: 0.3ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:04:39 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:932 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:932 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 28ms (Views: 5.7ms | MongoDB: 20.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:06:34 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:944 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:944 | messages_stack.find | SUCCEEDED | 0.023s
+Completed 200 OK in 32ms (Views: 5.4ms | MongoDB: 23.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:07:00 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:948 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:948 | messages_stack.find | SUCCEEDED | 0.011s
+Completed 200 OK in 17ms (Views: 5.1ms | MongoDB: 11.1ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:08:09 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:956 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:956 | messages_stack.find | SUCCEEDED | 0.020s
+Completed 200 OK in 26ms (Views: 4.5ms | MongoDB: 20.4ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:08:36 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:959 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:959 | messages_stack.find | SUCCEEDED | 0.014s
+Completed 200 OK in 20ms (Views: 5.3ms | MongoDB: 13.7ms | GC: 0.0ms)
+
+
+Started GET "/main/v1/messages?page=1&per_page=20" for ::1 at 2025-06-12 16:09:23 -0400
+Processing by Main::V1::MessagesController#index as JSON
+  Parameters: {"page" => "1", "per_page" => "20", "message" => {}}
+Session ID: f25e396f8b91761a1bd49bb97003e21b
+MONGODB | localhost:27017 req:965 conn:1:1 sconn:109 | messages_stack.find | STARTED | {"find" => "messages", "filter" => {"session_id" => "f25e396f8b91761a1bd49bb97003e21b"}, "sort" => {"created_at" => -1}, "$db" => "messages_stack", "lsid" => {"id" => <BSON::Binary:0x4960 type=uuid data=0x1555a5e7d4b04fec...>}}
+MONGODB | localhost:27017 req:965 | messages_stack.find | SUCCEEDED | 0.023s
+Completed 200 OK in 36ms (Views: 12.5ms | MongoDB: 22.9ms | GC: 0.0ms)
+
+
