@@ -10,6 +10,18 @@ export interface Message {
 }
 
 export interface CreateMessageResponse {
-    message_content: string;
-    phone_number: string;
+    message: {
+        message_content: string;
+        phone_number: string;
+    }
+}
+
+export interface MessageResponse {
+    messages: Message[];
+    pagination: {
+        current_page: number;
+        per_page: number;
+        total_count: number;
+        total_pages: number;
+    };
 }

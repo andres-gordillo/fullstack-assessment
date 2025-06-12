@@ -1,6 +1,6 @@
 <div>
     <div>
-        <h2>Your Messages</h2>
+        <h2>Message History ({{!!messages() ? messages().length : 0}})</h2>
     </div>
 </div>
 
@@ -9,12 +9,13 @@
 
 
 
-<div class="message-contianer" *ngIf="true">
-    <app-card-component>
+<div class="message-container" *ngIf="true">
+    <app-card-component 
+        *ngFor="let message of messages(); trackBy: trackById"
+        [message]="message"
+    >
 
     </app-card-component>
 </div>
 
 
-
-<!-- *ngFor="let message of messages; trackBy: trackByMessageId" [message]="message"    -->

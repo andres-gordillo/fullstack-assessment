@@ -1,25 +1,27 @@
-<div class="card-header">
-    <div class="number">
-        <span>12312313123</span>
-    </div>
-    <div class="time">
-        <span>10/15/1990 123123</span>
-    </div>
-</div>
-
-<mat-card  variant="outlined" class="message-card">  
-    <mat-card-content>
-        <div class="card-body">
-            Hello There this is a test message
+<div class="text-card">
+    <div class="card-header">
+        <div class="number">
+            <span>{{message().phone_number | phonePipe }}</span>
         </div>
-    </mat-card-content>
-</mat-card>
-
-<div class="card-footer">
-    <div class="status">
-        Pending
+        <div class="time">
+            <span>{{message().created_at | datePipe: 'dd/MM/yyyy HH:mm'}}</span>
+        </div>
     </div>
-    <div class="message-length">
-        125/160
+
+    <mat-card  variant="outlined" class="message-card">  
+        <mat-card-content class="body-parent">
+            <div class="card-body">
+                {{message().message_content}}
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <div class="card-footer">
+        <div class="status">
+            {{statusText()}}
+        </div>
+        <div class="message-length">
+            {{messageLength()}}/250
+        </div>
     </div>
 </div>

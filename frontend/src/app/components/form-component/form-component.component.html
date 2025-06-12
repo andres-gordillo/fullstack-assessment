@@ -1,30 +1,63 @@
 <div class="form-main">
     <div class="header">
-        <h2>New Message</h2>
+        <h2>Send New Message</h2>
     </div>
     <div>
         <div>
-            <form>
-                <div>
+            <form (ngSubmit)="onSubmit($event)">
+                <div class="number-input-header">
                     <span>Phone Number</span>
                 </div>
                 <div>
                     <mat-form-field class="number-form">
-                        <input matInput>
+                        <input 
+                            matInput
+                            #phoneInput
+                            [value]="phoneNumber()"
+                            (input)="updatePhoneNumber(phoneInput.value)"
+                            placeholder="+1234567890"
+                            [class.error]="phoneError() !== null"
+                            type="tel"
+                        >
+                        <mat-error *ngIf="phoneError() !== null">{{phoneError()}}</mat-error>
                     </mat-form-field>
                 </div>
-                <div>
+                <div class="content-header">
                     <span>Message</span>
                 </div>
                 <div class="message-form">
                     <mat-form-field>
-                        <textarea matInput></textarea>
+                        <textarea 
+                            matInput
+                            #messageInput
+                            [value]="messageContent()"
+                            (input)="updateMessageContent(messageInput.value)"
+                            [class.error]="messageContentError() !== null"
+                            placeholder="Enter message here..."
+                            rows="5"
+                            maxlength="250"
+                        >
+                        </textarea>
+                        <mat-error *ngIf="messageContentError() !== null">{{messageContentError()}}</mat-error>
                     </mat-form-field>
-                    <span class="character-count">10/250</span>
+                    <span class="character-count">{{ messageCounter() }} / 250</span>
                 </div>
                 <div class="button-footer">
-                    <button mat-button>Clear</button>
-                    <button mat-raised-button color="primary" type="submit">Submit</button>
+                    <button 
+                        mat-button
+                        type="button"
+                        (click)="$event.preventDefault(); updateMessageContent('');"
+                    >
+                        Clear
+                    </button>
+                    <button 
+                        mat-raised-button 
+                        color="primary" 
+                        type="submit"
+                        [disabled]="buttonDisabled()"
+                    >
+                        {{buttonText()}}
+                    </button>
                 </div>
 
             </form>

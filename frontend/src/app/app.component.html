@@ -177,8 +177,8 @@
 
 <main class="main">
   <div class="content">
-    <app-form-component></app-form-component>
-    <app-list-component></app-list-component>
+    <app-form-component (messageSent)="onNewMessage($event)"></app-form-component>
+    <app-list-component #listComponent></app-list-component>
   </div>
 </main>
 

@@ -17,28 +17,34 @@ module Backend
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w[assets tasks])
 
-    # Configuration for the application, engines, and railties goes here.
-    #
-    # These settings can be overridden in specific environments using the files
-    # in config/environments, which are processed later.
-    #
-    # config.time_zone = "Central Time (US & Canada)"
-    # config.eager_load_paths << Rails.root.join("extras")
-    config.session_store :cookie_store, key: '_test_session'
-    config.middleware.use ActionDispatch::Cookies
-    config.middleware.use config.session_store, config.session_options
-    
     config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins 'http://localhost:4200'
-        resource '*', headers: :any, methods: [:get, :post, :put, :delete, :options]
+        resource '*', 
+          headers: :any, 
+          credentials: true,
+          methods: [:get, :post, :put, :delete, :options, :head],
+          expose: ['Set-Cookie', 'Cookie']    # Add Cookie to expose
       end
     end
+
+# Try this session configuration
+  config.session_store :cookie_store, 
+    key: '_test_session',
+    path: '/',                  
+    same_site: :lax,           
+    secure: false,             
+    httponly: false,           
+    expire_after: 5.days
+  # Remove domain setting completely
+    # config.middleware.use ActionDispatch::Cookies
+    # config.middleware.use config.session_store, config.session_options
+    
 
 
     # Only loads a smaller set of middleware suitable for API only apps.
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
-    config.api_only = true
+    # config.api_only = true
   end
 end
