@@ -118,6 +118,7 @@ export class FormComponentComponent {
         window.alert('Message has been sent!')
       },
       error: (error) => {
+        this.messageSent.emit()
         this.messageContentControl.set('')
         this.phoneNumberControl.set('')
         this.isSubmittingControl.set(false)
