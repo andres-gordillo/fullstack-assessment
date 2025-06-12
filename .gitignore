@@ -2,12 +2,6 @@
 .env.local
 .env.*.local
 
-tmp/
-*.tmp
-*.swp
-*.swo
-*~
-
 /log/*
 /tmp/*
 !/log/.keep
